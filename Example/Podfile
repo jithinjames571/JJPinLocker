@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JJPinLocker_Example' do
+  pod 'JJPinLocker', :path => '../'
+
+  target 'JJPinLocker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
