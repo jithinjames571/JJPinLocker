@@ -1,0 +1,22 @@
+{
+  "name": "JJPinLocker",
+  "version": "0.1.0",
+  "summary": "A short description of JJPinLocker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jithinjames571/JJPinLocker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jithinjames571": "jithin571@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jithinjames571/JJPinLocker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JJPinLocker/Classes/**/*"
+}

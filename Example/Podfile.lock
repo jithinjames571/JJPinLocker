@@ -1,0 +1,16 @@
+PODS:
+  - JJPinLocker (0.1.0)
+
+DEPENDENCIES:
+  - JJPinLocker (from `../`)
+
+EXTERNAL SOURCES:
+  JJPinLocker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JJPinLocker: 3c97e178d9bcb88111c429dff4975e54a5177d5b
+
+PODFILE CHECKSUM: 6bc46235a48c1abb8c812b26467fa12aae39f4a9
+
+COCOAPODS: 1.6.1

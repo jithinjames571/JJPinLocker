@@ -1,0 +1,6 @@
+framework module Pods_JJPinLocker_Example {
+  umbrella header "Pods-JJPinLocker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

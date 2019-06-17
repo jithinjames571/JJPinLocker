@@ -1,0 +1,6 @@
+framework module JJPinLocker {
+  umbrella header "JJPinLocker-umbrella.h"
+
+  export *
+  module * { export * }
+}
