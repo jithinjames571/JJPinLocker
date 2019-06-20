@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0B6A386C6E371585EE1CE8ABF9A8D54E /* Pods-JJPinLocker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA48645BDEC7C0891D28E7C98DCDE8A /* Pods-JJPinLocker_Example-dummy.m */; };
+		13F7FD7E8E4C486C3921BC3A824DE853 /* JJPinLocker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FA0B1266268DFDEA671E936EB8FAB2 /* JJPinLocker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233BD39A49810B02B8C5AFE0DF9AED40 /* JJLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E42B0BADAF6B1898E306CC395403D /* JJLocker.swift */; };
+		25ABEB7B5366F8CA00074589086D00FE /* JJLockerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D7B7DAFA4C9941BD68A7D4E7BA1DC /* JJLockerViewController.swift */; };
 		338265B26090CF48CFE4F36FE9060846 /* Pods-JJPinLocker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD1F6B8E3EEB2551F3C0D4E317385AB /* Pods-JJPinLocker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B7329F8F745095CF7A4A0962C1EEF25 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40EC9232A7993ACD2EAFAC1B732445D /* ReplaceMe.swift */; };
-		5CAF873732311234C7149D2B00DA5382 /* JJPinLocker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F78EAAD961AE11E29F37555D26F0EB /* JJPinLocker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73DB57367103629B5E9C2C081BB71B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7FA47014D46B9B0D119D9B453B264C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		9041075F793C7B14A05806CE5035B02C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A592CD0E394C36917B12974A71C5D22F /* JJPinLocker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DE46C47C94452C8407F27825E4FDAD /* JJPinLocker-dummy.m */; };
-		AAF06390F8191035E91A15DCD39FEFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B13B3A31E09E3E91F4D771E2FB809622 /* JJPinLocker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6254FE4F8AE4951F53AC1C0C70E1B737 /* JJPinLocker-dummy.m */; };
+		BCDDF363C338FBA1AEDD0F850E72905A /* MyFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2548E2B78AEC5EC4FAC65739E62A1F7D /* MyFramework.bundle */; };
 		DC35F14BD0A1E6131CC33BD878827AA1 /* Pods-JJPinLocker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC812F2570DA0C66F12189C657ACED2C /* Pods-JJPinLocker_Tests-dummy.m */; };
+		EF24F51F1BA501EF50C625981005C61D /* JJLocker.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = FC04D674AE1C6AFB617624959769E477 /* JJLocker.storyboard */; };
 		FEF10FF71A2296937D89F5DC04372E12 /* Pods-JJPinLocker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE0200D4597A966FD5EDD3F29FBC106 /* Pods-JJPinLocker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -24,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D614C7B1C9EA4F5AB25E85952480418;
+			remoteGlobalIDString = 967F7802F99D8FEFE410FDD5BA604F8D;
 			remoteInfo = JJPinLocker;
 		};
 		3883339674C123A5D15360340B7AC272 /* PBXContainerItemProxy */ = {
@@ -34,57 +37,68 @@
 			remoteGlobalIDString = 527129053DF326058CD37BEDDAE72991;
 			remoteInfo = "Pods-JJPinLocker_Example";
 		};
+		9F256DD4FDBEECAD13919FC78A2FBCF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965DD35F5991E7ACA16D5EF89004C87E;
+			remoteInfo = "JJPinLocker-MyFramework";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB8ABE4F0BB7F64BD4013D140B7A518 /* JJPinLocker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJPinLocker.xcconfig; sourceTree = "<group>"; };
+		07E21CC84EC2E1B7C9FC8DE44226B5EC /* JJPinLocker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJPinLocker-prefix.pch"; sourceTree = "<group>"; };
+		213871393CC59EAD86CBA9902994326B /* JJPinLocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJPinLocker.framework; path = JJPinLocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2548E2B78AEC5EC4FAC65739E62A1F7D /* MyFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyFramework.bundle; path = "JJPinLocker-MyFramework.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FA0B1266268DFDEA671E936EB8FAB2 /* JJPinLocker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJPinLocker-umbrella.h"; sourceTree = "<group>"; };
 		2DA48645BDEC7C0891D28E7C98DCDE8A /* Pods-JJPinLocker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJPinLocker_Example-dummy.m"; sourceTree = "<group>"; };
 		316A8E2FB6E70FA20A8C6176D518DDCA /* Pods-JJPinLocker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJPinLocker_Example-Info.plist"; sourceTree = "<group>"; };
+		34B24185BCEE984C66CE4B83F570616B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		34C796DA53D66ED77E62597B7DBE55DB /* Pods-JJPinLocker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJPinLocker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		35E7658FDF63E86C436683C8DD296748 /* JJPinLocker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJPinLocker-prefix.pch"; sourceTree = "<group>"; };
-		36BE3A1FB358D54F4ED7D64807577356 /* Pods_JJPinLocker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJPinLocker_Tests.framework; path = "Pods-JJPinLocker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA5C2697387A7DAB964CC08D74D6DC7 /* Pods-JJPinLocker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJPinLocker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4CCE7BCBDD24B15B623FEB1BD38AC728 /* Pods_JJPinLocker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJPinLocker_Example.framework; path = "Pods-JJPinLocker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4044A7B6F448ADBD99DA110A78AFE17E /* JJPinLocker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJPinLocker.xcconfig; sourceTree = "<group>"; };
 		4E5784D4505D8CD4FB5329063725CD07 /* Pods-JJPinLocker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJPinLocker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5117FC1518AC82CBA22E3D5DCFC862F0 /* JJPinLocker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JJPinLocker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		53244359E8338546F1D04591DB0D8897 /* Pods-JJPinLocker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJPinLocker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54D427D48F335811A7E6E21ED0BE8BAA /* JJPinLocker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JJPinLocker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6254FE4F8AE4951F53AC1C0C70E1B737 /* JJPinLocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJPinLocker-dummy.m"; sourceTree = "<group>"; };
+		68EABB3E00671312626E15D04C19B6C6 /* JJPinLocker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JJPinLocker.modulemap; sourceTree = "<group>"; };
 		74E365F622555F761512854FBA8C562F /* Pods-JJPinLocker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJPinLocker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7A73128E57F69336CB90571E84EB84AE /* JJPinLocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJPinLocker.framework; path = JJPinLocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F91638C5C49C270ED47617854E5F8DD /* Pods-JJPinLocker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJPinLocker_Tests-Info.plist"; sourceTree = "<group>"; };
-		927441625871009BC547D59B16955940 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		976D82AB2F457261B0107F6533F3AE6B /* Pods-JJPinLocker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JJPinLocker_Tests.modulemap"; sourceTree = "<group>"; };
+		9BA9299D56586741BF41F2B35328397D /* Pods_JJPinLocker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJPinLocker_Example.framework; path = "Pods-JJPinLocker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A40EC9232A7993ACD2EAFAC1B732445D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JJPinLocker/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A44CF350A172AD5EDDD46B6EEEE06F59 /* Pods_JJPinLocker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJPinLocker_Tests.framework; path = "Pods-JJPinLocker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9D7B7DAFA4C9941BD68A7D4E7BA1DC /* JJLockerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJLockerViewController.swift; sourceTree = "<group>"; };
 		ACD1F6B8E3EEB2551F3C0D4E317385AB /* Pods-JJPinLocker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJPinLocker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B5DE46C47C94452C8407F27825E4FDAD /* JJPinLocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJPinLocker-dummy.m"; sourceTree = "<group>"; };
-		B7ABFB3200A7D99F05CE36D4E427D3E6 /* JJPinLocker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JJPinLocker.modulemap; sourceTree = "<group>"; };
 		C8CADEF73CAFB2BB618F8EF5CF05FDEB /* Pods-JJPinLocker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJPinLocker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA405D9E7D3B0AD740DD353EA3C0D329 /* JJPinLocker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JJPinLocker-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D79C294C30057BDB1C6719E901CA599B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CC30209B8B4A96223BE014E921A00C55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D7DD20D157D6756C79CA63474F7099DD /* Pods-JJPinLocker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJPinLocker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DB16AC98DFF3A0938C59E747696CAAB4 /* ResourceBundle-MyFramework-JJPinLocker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MyFramework-JJPinLocker-Info.plist"; sourceTree = "<group>"; };
 		DEE0200D4597A966FD5EDD3F29FBC106 /* Pods-JJPinLocker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJPinLocker_Example-umbrella.h"; sourceTree = "<group>"; };
 		E5D4F797A73E1E2FD9F3D49B7C367ED8 /* Pods-JJPinLocker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JJPinLocker_Example.modulemap"; sourceTree = "<group>"; };
+		E80E42B0BADAF6B1898E306CC395403D /* JJLocker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JJLocker.swift; path = JJPinLocker/Classes/JJLocker.swift; sourceTree = "<group>"; };
 		EB9091E8B113C2BFE8A9BB34737664CD /* Pods-JJPinLocker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJPinLocker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F8F889C402520FCF194065F0B90DB9C5 /* Pods-JJPinLocker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJPinLocker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F9F78EAAD961AE11E29F37555D26F0EB /* JJPinLocker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJPinLocker-umbrella.h"; sourceTree = "<group>"; };
+		FC04D674AE1C6AFB617624959769E477 /* JJLocker.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = JJLocker.storyboard; sourceTree = "<group>"; };
 		FC812F2570DA0C66F12189C657ACED2C /* Pods-JJPinLocker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJPinLocker_Tests-dummy.m"; sourceTree = "<group>"; };
+		FF45D69FB2FC0BF60A3B5D405082BECC /* JJPinLocker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JJPinLocker-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		07B32B576DBEA2E881265F5CEFC5EF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA47014D46B9B0D119D9B453B264C0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7983AE31CACBA851E698086DD4C6F37A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				73DB57367103629B5E9C2C081BB71B4F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94E2957FE221F09FEDF1C8E5823041BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAF06390F8191035E91A15DCD39FEFFB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,23 +110,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2BCC5F624A89DED4B074373E8140C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01BC02C537B87C55E38D43386A37E635 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B7ABFB3200A7D99F05CE36D4E427D3E6 /* JJPinLocker.modulemap */,
-				0CB8ABE4F0BB7F64BD4013D140B7A518 /* JJPinLocker.xcconfig */,
-				B5DE46C47C94452C8407F27825E4FDAD /* JJPinLocker-dummy.m */,
-				CA405D9E7D3B0AD740DD353EA3C0D329 /* JJPinLocker-Info.plist */,
-				35E7658FDF63E86C436683C8DD296748 /* JJPinLocker-prefix.pch */,
-				F9F78EAAD961AE11E29F37555D26F0EB /* JJPinLocker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JJPinLocker";
-			sourceTree = "<group>";
-		};
 		0FC82BABC6783B5C19E1720CA8AD0388 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,14 +129,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3AAE87A6AB5CC62107FCFCC2315B1166 /* Pod */ = {
+		35D65DCD56713400DB04973A79999BC8 /* JJPinLocker */ = {
 			isa = PBXGroup;
 			children = (
-				5117FC1518AC82CBA22E3D5DCFC862F0 /* JJPinLocker.podspec */,
-				927441625871009BC547D59B16955940 /* LICENSE */,
-				D79C294C30057BDB1C6719E901CA599B /* README.md */,
+				E80E42B0BADAF6B1898E306CC395403D /* JJLocker.swift */,
+				BE53D3BC8A26A5A2BC454D7827EFCFEF /* Classes */,
+				8368199862574523188FBEE3BE0025DB /* Pod */,
+				F3D38A7E119EEE240174CA331E485E8E /* Support Files */,
 			);
-			name = Pod;
+			name = JJPinLocker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		74E632313486B603565DD2DE5ADC9333 /* Pods-JJPinLocker_Example */ = {
@@ -165,6 +174,24 @@
 			path = "Target Support Files/Pods-JJPinLocker_Tests";
 			sourceTree = "<group>";
 		};
+		8368199862574523188FBEE3BE0025DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				54D427D48F335811A7E6E21ED0BE8BAA /* JJPinLocker.podspec */,
+				34B24185BCEE984C66CE4B83F570616B /* LICENSE */,
+				CC30209B8B4A96223BE014E921A00C55 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8EB2BD03A79A3550900CF17A538E983C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D65DCD56713400DB04973A79999BC8 /* JJPinLocker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,42 +200,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BF09AD31A939078B8A6F4CB504ABC50F /* Products */ = {
+		BE53D3BC8A26A5A2BC454D7827EFCFEF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7A73128E57F69336CB90571E84EB84AE /* JJPinLocker.framework */,
-				4CCE7BCBDD24B15B623FEB1BD38AC728 /* Pods_JJPinLocker_Example.framework */,
-				36BE3A1FB358D54F4ED7D64807577356 /* Pods_JJPinLocker_Tests.framework */,
+				FC04D674AE1C6AFB617624959769E477 /* JJLocker.storyboard */,
+				AA9D7B7DAFA4C9941BD68A7D4E7BA1DC /* JJLockerViewController.swift */,
+			);
+			name = Classes;
+			path = JJPinLocker/Classes/Classes;
+			sourceTree = "<group>";
+		};
+		C7248F89A8A26FB2888BB534C9F5E10F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213871393CC59EAD86CBA9902994326B /* JJPinLocker.framework */,
+				2548E2B78AEC5EC4FAC65739E62A1F7D /* MyFramework.bundle */,
+				9BA9299D56586741BF41F2B35328397D /* Pods_JJPinLocker_Example.framework */,
+				A44CF350A172AD5EDDD46B6EEEE06F59 /* Pods_JJPinLocker_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C676C79BE19D79F655E787F9C90000E9 /* JJPinLocker */ = {
-			isa = PBXGroup;
-			children = (
-				A40EC9232A7993ACD2EAFAC1B732445D /* ReplaceMe.swift */,
-				3AAE87A6AB5CC62107FCFCC2315B1166 /* Pod */,
-				01BC02C537B87C55E38D43386A37E635 /* Support Files */,
-			);
-			name = JJPinLocker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CA8431E482290CDDD004D7F61FABD7B6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C676C79BE19D79F655E787F9C90000E9 /* JJPinLocker */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CA8431E482290CDDD004D7F61FABD7B6 /* Development Pods */,
+				8EB2BD03A79A3550900CF17A538E983C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BF09AD31A939078B8A6F4CB504ABC50F /* Products */,
+				C7248F89A8A26FB2888BB534C9F5E10F /* Products */,
 				0FC82BABC6783B5C19E1720CA8AD0388 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -221,22 +240,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F3D38A7E119EEE240174CA331E485E8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68EABB3E00671312626E15D04C19B6C6 /* JJPinLocker.modulemap */,
+				4044A7B6F448ADBD99DA110A78AFE17E /* JJPinLocker.xcconfig */,
+				6254FE4F8AE4951F53AC1C0C70E1B737 /* JJPinLocker-dummy.m */,
+				FF45D69FB2FC0BF60A3B5D405082BECC /* JJPinLocker-Info.plist */,
+				07E21CC84EC2E1B7C9FC8DE44226B5EC /* JJPinLocker-prefix.pch */,
+				27FA0B1266268DFDEA671E936EB8FAB2 /* JJPinLocker-umbrella.h */,
+				DB16AC98DFF3A0938C59E747696CAAB4 /* ResourceBundle-MyFramework-JJPinLocker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JJPinLocker";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0BDE14710DCC6D2C9A0A3510D583A25F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F7FD7E8E4C486C3921BC3A824DE853 /* JJPinLocker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D2E361DE431252516A21459D662FF87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FEF10FF71A2296937D89F5DC04372E12 /* Pods-JJPinLocker_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D74A24BF498DF4E484C76E66BC23556F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CAF873732311234C7149D2B00DA5382 /* JJPinLocker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,25 +301,43 @@
 			);
 			name = "Pods-JJPinLocker_Example";
 			productName = "Pods-JJPinLocker_Example";
-			productReference = 4CCE7BCBDD24B15B623FEB1BD38AC728 /* Pods_JJPinLocker_Example.framework */;
+			productReference = 9BA9299D56586741BF41F2B35328397D /* Pods_JJPinLocker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9D614C7B1C9EA4F5AB25E85952480418 /* JJPinLocker */ = {
+		965DD35F5991E7ACA16D5EF89004C87E /* JJPinLocker-MyFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F8E4C7D16B513031E56C03F9B5B035F /* Build configuration list for PBXNativeTarget "JJPinLocker" */;
+			buildConfigurationList = B0A2C351F07EB1ABD44145D4CA05430E /* Build configuration list for PBXNativeTarget "JJPinLocker-MyFramework" */;
 			buildPhases = (
-				D74A24BF498DF4E484C76E66BC23556F /* Headers */,
-				0EB39334A806F659F3C9A9DF8E198517 /* Sources */,
-				94E2957FE221F09FEDF1C8E5823041BE /* Frameworks */,
-				0B6B37C03A38512417FA9A9292D58981 /* Resources */,
+				FED0BBD3C55FAD00168000095CE21ED4 /* Sources */,
+				F2BCC5F624A89DED4B074373E8140C8D /* Frameworks */,
+				A39F4ECD0BE45A88495DA201E625FF2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "JJPinLocker-MyFramework";
+			productName = "JJPinLocker-MyFramework";
+			productReference = 2548E2B78AEC5EC4FAC65739E62A1F7D /* MyFramework.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		967F7802F99D8FEFE410FDD5BA604F8D /* JJPinLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96AE335443FF7CC04D36E7D86FF8EE8C /* Build configuration list for PBXNativeTarget "JJPinLocker" */;
+			buildPhases = (
+				0BDE14710DCC6D2C9A0A3510D583A25F /* Headers */,
+				BD44559EEAB33AF8BDA00721E63CB9DD /* Sources */,
+				07B32B576DBEA2E881265F5CEFC5EF0C /* Frameworks */,
+				EEEF08468B5CA282697E52245A67630B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E2925B94C61063FF6DE5A9FC23B719 /* PBXTargetDependency */,
+			);
 			name = JJPinLocker;
 			productName = JJPinLocker;
-			productReference = 7A73128E57F69336CB90571E84EB84AE /* JJPinLocker.framework */;
+			productReference = 213871393CC59EAD86CBA9902994326B /* JJPinLocker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAEC382480ABC359AEDB05AD9F963A8F /* Pods-JJPinLocker_Tests */ = {
@@ -304,7 +356,7 @@
 			);
 			name = "Pods-JJPinLocker_Tests";
 			productName = "Pods-JJPinLocker_Tests";
-			productReference = 36BE3A1FB358D54F4ED7D64807577356 /* Pods_JJPinLocker_Tests.framework */;
+			productReference = A44CF350A172AD5EDDD46B6EEEE06F59 /* Pods_JJPinLocker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,11 +376,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BF09AD31A939078B8A6F4CB504ABC50F /* Products */;
+			productRefGroup = C7248F89A8A26FB2888BB534C9F5E10F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D614C7B1C9EA4F5AB25E85952480418 /* JJPinLocker */,
+				967F7802F99D8FEFE410FDD5BA604F8D /* JJPinLocker */,
+				965DD35F5991E7ACA16D5EF89004C87E /* JJPinLocker-MyFramework */,
 				527129053DF326058CD37BEDDAE72991 /* Pods-JJPinLocker_Example */,
 				EAEC382480ABC359AEDB05AD9F963A8F /* Pods-JJPinLocker_Tests */,
 			);
@@ -336,7 +389,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B6B37C03A38512417FA9A9292D58981 /* Resources */ = {
+		A39F4ECD0BE45A88495DA201E625FF2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,23 +410,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0EB39334A806F659F3C9A9DF8E198517 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		EEEF08468B5CA282697E52245A67630B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A592CD0E394C36917B12974A71C5D22F /* JJPinLocker-dummy.m in Sources */,
-				3B7329F8F745095CF7A4A0962C1EEF25 /* ReplaceMe.swift in Sources */,
+				BCDDF363C338FBA1AEDD0F850E72905A /* MyFramework.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		1E2B4BE65D6EEF1671091F4F89803A59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DC35F14BD0A1E6131CC33BD878827AA1 /* Pods-JJPinLocker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD44559EEAB33AF8BDA00721E63CB9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF24F51F1BA501EF50C625981005C61D /* JJLocker.storyboard in Sources */,
+				233BD39A49810B02B8C5AFE0DF9AED40 /* JJLocker.swift in Sources */,
+				25ABEB7B5366F8CA00074589086D00FE /* JJLockerViewController.swift in Sources */,
+				B13B3A31E09E3E91F4D771E2FB809622 /* JJPinLocker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,13 +448,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FED0BBD3C55FAD00168000095CE21ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		C34816FD1C10D05B39256E5FFFEB618C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JJPinLocker;
-			target = 9D614C7B1C9EA4F5AB25E85952480418 /* JJPinLocker */;
+			target = 967F7802F99D8FEFE410FDD5BA604F8D /* JJPinLocker */;
 			targetProxy = 062C1B4A15C42A016A6BAA58DD058F28 /* PBXContainerItemProxy */;
 		};
 		CA7001DD50DB315B6B8A0E06BFEEF59B /* PBXTargetDependency */ = {
@@ -400,47 +470,21 @@
 			target = 527129053DF326058CD37BEDDAE72991 /* Pods-JJPinLocker_Example */;
 			targetProxy = 3883339674C123A5D15360340B7AC272 /* PBXContainerItemProxy */;
 		};
+		E9E2925B94C61063FF6DE5A9FC23B719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JJPinLocker-MyFramework";
+			target = 965DD35F5991E7ACA16D5EF89004C87E /* JJPinLocker-MyFramework */;
+			targetProxy = 9F256DD4FDBEECAD13919FC78A2FBCF0 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4E0D408A63C2CA0C93B65115332E4899 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E5784D4505D8CD4FB5329063725CD07 /* Pods-JJPinLocker_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JJPinLocker_Example/Pods-JJPinLocker_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JJPinLocker_Example/Pods-JJPinLocker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		80DB7259A03F6E36E44E463B4E9259B8 /* Release */ = {
+		03755F40921BB0BB38916E9F0C44EC3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7DD20D157D6756C79CA63474F7099DD /* Pods-JJPinLocker_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -452,7 +496,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JJPinLocker_Example/Pods-JJPinLocker_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JJPinLocker_Example/Pods-JJPinLocker_Example.modulemap";
@@ -470,10 +514,11 @@
 			};
 			name = Release;
 		};
-		8DB550BF8D7933FA79DB5991FBCC9582 /* Debug */ = {
+		141982E5B2A62DDD67CF5FD50ED03D68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CB8ABE4F0BB7F64BD4013D140B7A518 /* JJPinLocker.xcconfig */;
+			baseConfigurationReference = 4044A7B6F448ADBD99DA110A78AFE17E /* JJPinLocker.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -486,7 +531,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JJPinLocker/JJPinLocker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JJPinLocker/JJPinLocker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JJPinLocker/JJPinLocker.modulemap";
 				PRODUCT_MODULE_NAME = JJPinLocker;
@@ -501,43 +546,88 @@
 			};
 			name = Debug;
 		};
-		935F2EA48A2F668DDFA74802176CDCA7 /* Release */ = {
+		2878F224D6E1796E1ACC0BDC281CD183 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CB8ABE4F0BB7F64BD4013D140B7A518 /* JJPinLocker.xcconfig */;
+			baseConfigurationReference = 4044A7B6F448ADBD99DA110A78AFE17E /* JJPinLocker.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JJPinLocker/JJPinLocker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JJPinLocker/JJPinLocker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JJPinLocker/JJPinLocker.modulemap";
-				PRODUCT_MODULE_NAME = JJPinLocker;
-				PRODUCT_NAME = JJPinLocker;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JJPinLocker";
+				INFOPLIST_FILE = "Target Support Files/JJPinLocker/ResourceBundle-MyFramework-JJPinLocker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MyFramework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		A8E5AF03348887DB0836F2C3E29ACA15 /* Release */ = {
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4AF72B6D0E6B0601C5AC5EA3037239EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AA5C2697387A7DAB964CC08D74D6DC7 /* Pods-JJPinLocker_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -549,7 +639,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JJPinLocker_Tests/Pods-JJPinLocker_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JJPinLocker_Tests/Pods-JJPinLocker_Tests.modulemap";
@@ -567,7 +657,7 @@
 			};
 			name = Release;
 		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -618,7 +708,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -631,11 +721,79 @@
 			};
 			name = Debug;
 		};
-		D446688D50EFDE97355F433BF3AD3ACF /* Debug */ = {
+		95BA757F5069636C13F1CB56D30E9A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5784D4505D8CD4FB5329063725CD07 /* Pods-JJPinLocker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJPinLocker_Example/Pods-JJPinLocker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJPinLocker_Example/Pods-JJPinLocker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB973BAAC0773051DF249B8EF1C4F535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4044A7B6F448ADBD99DA110A78AFE17E /* JJPinLocker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JJPinLocker/JJPinLocker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JJPinLocker/JJPinLocker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JJPinLocker/JJPinLocker.modulemap";
+				PRODUCT_MODULE_NAME = JJPinLocker;
+				PRODUCT_NAME = JJPinLocker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C33279C3D6D640B7BE41758280E67812 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8F889C402520FCF194065F0B90DB9C5 /* Pods-JJPinLocker_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -647,7 +805,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JJPinLocker_Tests/Pods-JJPinLocker_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JJPinLocker_Tests/Pods-JJPinLocker_Tests.modulemap";
@@ -664,65 +822,21 @@
 			};
 			name = Debug;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+		E6AA3917BBF3C8777DFDC0005D506179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4044A7B6F448ADBD99DA110A78AFE17E /* JJPinLocker.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JJPinLocker";
+				INFOPLIST_FILE = "Target Support Files/JJPinLocker/ResourceBundle-MyFramework-JJPinLocker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MyFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -730,8 +844,8 @@
 		1E66D7CEDF8C446951FF15E3A24829D0 /* Build configuration list for PBXNativeTarget "Pods-JJPinLocker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D446688D50EFDE97355F433BF3AD3ACF /* Debug */,
-				A8E5AF03348887DB0836F2C3E29ACA15 /* Release */,
+				C33279C3D6D640B7BE41758280E67812 /* Debug */,
+				4AF72B6D0E6B0601C5AC5EA3037239EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,8 +853,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,17 +862,26 @@
 		563DE98B19DA475429296C47A307CDB7 /* Build configuration list for PBXNativeTarget "Pods-JJPinLocker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E0D408A63C2CA0C93B65115332E4899 /* Debug */,
-				80DB7259A03F6E36E44E463B4E9259B8 /* Release */,
+				95BA757F5069636C13F1CB56D30E9A56 /* Debug */,
+				03755F40921BB0BB38916E9F0C44EC3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F8E4C7D16B513031E56C03F9B5B035F /* Build configuration list for PBXNativeTarget "JJPinLocker" */ = {
+		96AE335443FF7CC04D36E7D86FF8EE8C /* Build configuration list for PBXNativeTarget "JJPinLocker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DB550BF8D7933FA79DB5991FBCC9582 /* Debug */,
-				935F2EA48A2F668DDFA74802176CDCA7 /* Release */,
+				141982E5B2A62DDD67CF5FD50ED03D68 /* Debug */,
+				AB973BAAC0773051DF249B8EF1C4F535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A2C351F07EB1ABD44145D4CA05430E /* Build configuration list for PBXNativeTarget "JJPinLocker-MyFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AA3917BBF3C8777DFDC0005D506179 /* Debug */,
+				2878F224D6E1796E1ACC0BDC281CD183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
