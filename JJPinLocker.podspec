@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'JJPinLocker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JJPinLocker.'
-
+  s.summary          = 'super handy JJPinLocker.'
+s.swift_version         = '4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -20,18 +20,24 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
+                       s.source = {
+                           :git => 'https://github.com/jithinjames571/JJPinLocker.git',
+                           :tag => '0.1.0'
+                       }
   s.homepage         = 'https://github.com/jithinjames571/JJPinLocker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jithinjames571' => 'jithin571@gmail.com' }
-  s.source           = { :git => 'https://github.com/jithinjames571/JJPinLocker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jithinjames571/JJPinLocker.git', :tag => '0.1.0'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'JJPinLocker/Classes/**/*'
   
+  s.resource_bundles = {
+      'MyFramework' => ['Pod/Classes/**/*.{storyboard,xib}']
+  }
   # s.resource_bundles = {
   #   'JJPinLocker' => ['JJPinLocker/Assets/*.png']
   # }
